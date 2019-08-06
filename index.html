@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bts Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<script src = "index.js"></script>
+<style>
+	p  {
+  		font-family: arial;
+  		font-size: 100%;
+}
+	p1, h1 {
+		font-family: arial;
+  		font-size: 100%;
+}
+	h2, h3 {
+		font-family: arial;
+		font-size: 100%;
+	}
+</style>
+
+</head>
+
+<body>
+<h1>Quiz de BTS</h1>
+<p>Bienvenidos a Trivia.</p>
+<p1>Aquí le haremos una serie de preguntas que debe responder con respecto al tema siguiente:</p1>
+<h1>Una banda de chicos llamados "Bangtan Boys", conocidos mundialmente como "BTS".</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "preguntas">¿Qué año debuto BTS??</p>
+<h3> Esto es algo básico que debes saber, debutaron el 11 de junio del ... con su MV 'No More Dream'.</h3>
+<input type = "radio" id = "mc" name = "pregunta1" value = "2011"> 2011 <br>
+<input type = "radio" id = "mc" name = "pregunta1" value = "2012"> 2012 <br>
+<input type = "radio" id = "mc" name = "pregunta1" value = "2014"> 2014 <br>
+<input type = "radio" id = "mc" name = "pregunta1" value = "2013"> 2013 <br>
+
+<p class = "questions">¿Cuántos integrantes son?</p>
+<input type = "radio" id = "mc" name = "pregunta2" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "pregunta2" value = "8"> 8<br>
+<input type = "radio" id = "mc" name = "pregunta3" value = "9"> 9<br>
+<input type = "radio" id = "mc" name = "pregunta3" value = "6"> 6<br>
+
+<p class = "questions">¿Cuántos raperos hay?</p>
+<h2> Sabiendo que Taehyung no pudo cantar Cypher4 junto a los raperos..</h2>
+<input type = "radio" id = "mc" name = "pregunta3" value = "4"> 4<br>
+<input type = "radio" id = "mc" name = "pregunta3" value = "3"> 3<br>
+<input type = "radio" id = "mc" name = "pregunta3" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "pregunta3" value = "2"> 2<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "comprobar();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+
+</body>
